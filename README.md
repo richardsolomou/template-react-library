@@ -1,4 +1,4 @@
-# @ras-sh/template-react-library
+# template-react-library
 
 ⚛️ Production-ready React library template with TypeScript, Storybook, automated testing, and optimized builds with tree-shaking and code splitting.
 
@@ -32,10 +32,10 @@ Automatic tree-shaking and code splitting ensure consumers only bundle what they
 
 ```tsx
 // Main entry point
-import { Button } from '@ras-sh/template-react-library';
+import { Button } from 'template-react-library';
 
 // Direct import
-import { Button } from '@ras-sh/template-react-library/button';
+import { Button } from 'template-react-library/button';
 ```
 
 ## Scripts

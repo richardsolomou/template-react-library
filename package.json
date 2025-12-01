@@ -96,7 +96,7 @@
     "tsdown": "0.17.0-beta.1",
     "typescript": "^5.9.3",
     "ultracite": "6.3.8",
-    "vite": "^7.2.4",
+    "vite": "^7.2.6",
     "vitest": "^4.0.14"
   }
 }

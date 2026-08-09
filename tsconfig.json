@@ -1,7 +1,6 @@
 {
-  "extends": "@ras-sh/typescript-config/react-library.json",
+  "extends": "ras-stack/config/typescript/browser",
   "compilerOptions": {
-    "baseUrl": ".",
     "types": ["@testing-library/jest-dom"],
     "paths": {
       "~/*": ["./src/*"]

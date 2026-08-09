@@ -7,6 +7,7 @@ Thanks for your interest in contributing! Here's how to get started.
 1. **Fork and clone the repository**
 
 2. **Install dependencies**
+
    ```bash
    pnpm install
    ```
@@ -21,11 +22,13 @@ Thanks for your interest in contributing! Here's how to get started.
 ### Making Changes
 
 1. **Create a new branch**
+
    ```bash
    git checkout -b feature/your-feature-name
    ```
 
 2. **Make your changes** and ensure code quality:
+
    ```bash
    pnpm check        # Run linter
    pnpm check-types  # Type check
@@ -40,7 +43,7 @@ Thanks for your interest in contributing! Here's how to get started.
 
 ### Code Standards
 
-- **Linting**: We use Biome for code formatting and linting
+- **Code quality**: We use Oxfmt for formatting and Oxlint for linting
 - **Type Safety**: All code must pass TypeScript type checking
 - **Testing**: Add tests for new features or bug fixes
 - **Commit Messages**: Use clear, descriptive commit messages
@@ -48,6 +51,7 @@ Thanks for your interest in contributing! Here's how to get started.
 ### Pre-commit Hooks
 
 Git hooks will automatically run on commit:
+
 - **Lint**: Auto-fix code style issues
 - **Type check**: Verify TypeScript types
 

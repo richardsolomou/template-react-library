@@ -32,26 +32,26 @@ Automatic tree-shaking and code splitting ensure consumers only bundle what they
 
 ```tsx
 // Main entry point
-import { Button } from 'template-react-library';
+import { Button } from "template-react-library";
 
 // Direct import
-import { Button } from 'template-react-library/button';
+import { Button } from "template-react-library/button";
 ```
 
 ## Scripts
 
-| Command | Description |
-|---------|-------------|
-| `pnpm build` | Build library with tsdown |
-| `pnpm test` | Run tests with vitest |
-| `pnpm test:coverage` | Run tests with coverage report |
-| `pnpm storybook` | Start Storybook dev server |
-| `pnpm build-storybook` | Build Storybook for deployment |
-| `pnpm check-types` | Run TypeScript type checking |
-| `pnpm check` | Run linter checks |
-| `pnpm fix` | Auto-fix linting issues |
-| `pnpm changeset` | Create a new changeset |
-| `pnpm changeset:version` | Update versions based on changesets |
+| Command                  | Description                          |
+| ------------------------ | ------------------------------------ |
+| `pnpm build`             | Build library with tsdown            |
+| `pnpm test`              | Run tests with vitest                |
+| `pnpm test:coverage`     | Run tests with coverage report       |
+| `pnpm storybook`         | Start Storybook dev server           |
+| `pnpm build-storybook`   | Build Storybook for deployment       |
+| `pnpm check-types`       | Run TypeScript type checking         |
+| `pnpm check`             | Run linter checks                    |
+| `pnpm fix`               | Auto-fix linting issues              |
+| `pnpm changeset`         | Create a new changeset               |
+| `pnpm changeset:version` | Update versions based on changesets  |
 | `pnpm changeset:publish` | Build and publish the package to npm |
 
 ## Project Structure
@@ -83,7 +83,7 @@ tests/
 This template includes automated GitHub Actions workflows:
 
 - **CI Workflow** - Runs on every PR and push to main
-  - Linting with Biome
+  - Formatting with Oxfmt and linting with Oxlint
   - Type checking with TypeScript
   - Unit tests with Vitest
   - Build verification
@@ -107,9 +107,11 @@ This template uses [Changesets](https://github.com/changesets/changesets) for ve
 ### Manual Release
 
 1. **Create a changeset** when you make changes:
+
    ```bash
    pnpm changeset
    ```
+
    Follow the prompts to describe your changes (patch, minor, or major).
 
 2. **Commit and push your changes** including the changeset file

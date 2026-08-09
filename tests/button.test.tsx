@@ -41,7 +41,7 @@ describe("Button", () => {
     render(
       <Button disabled type="submit">
         Submit
-      </Button>
+      </Button>,
     );
     const button = screen.getByRole("button");
     expect(button).toHaveAttribute("type", "submit");

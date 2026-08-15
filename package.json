@@ -63,7 +63,7 @@
     "changeset:publish": "pnpm build && changeset publish",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "policy:check": "ras-stack-policy check"
+    "policy:check": "ras policy check"
   },
   "devDependencies": {
     "@changesets/cli": "^2.31.1",
@@ -88,7 +88,7 @@
     "oxlint": "^1.77.0",
     "oxlint-tsgolint": "^7.0.2001",
     "playwright": "^1.62.1",
-    "ras-stack": "^0.8.2",
+    "ras-stack": "^0.39.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "storybook": "^10.5.7",

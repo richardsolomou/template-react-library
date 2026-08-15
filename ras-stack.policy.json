@@ -1,4 +1,5 @@
 {
   "changesets": true,
-  "dependabot": true
+  "dependabot": true,
+  "pnpm": {}
 }

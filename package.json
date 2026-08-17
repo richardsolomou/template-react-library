@@ -88,7 +88,7 @@
     "oxlint": "^1.77.0",
     "oxlint-tsgolint": "^7.0.2001",
     "playwright": "^1.62.1",
-    "ras-stack": "^0.39.1",
+    "ras-stack": "^0.39.5",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "storybook": "^10.5.7",
